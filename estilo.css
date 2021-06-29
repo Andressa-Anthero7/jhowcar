@@ -1,0 +1,234 @@
+/*Limpar Formatações*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: white;
+}
+
+#main{
+	width: auto;
+	height: auto;
+	border:1px solid black;
+}
+
+
+/*Header*/
+
+
+
+#menu-bar{
+	width: 100%;
+	height: 40px;
+	margin-top: 0px; 
+	border:1px solid green;
+}
+
+#header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left:auto;
+	right: auto;
+	height: 140px;
+	background-image: url(fundo-header5.jpg);
+	border:1px solid red;
+	
+}
+
+
+
+#main-image{
+	width: 70%;
+	height: 350px;
+	margin-top:120px;
+	border:1px solid red;
+}
+
+
+
+
+
+#orcamento-bar{
+	width: 128px;
+	height:128px;
+	float: right;
+	background-image: url(logo2-whats.png);
+	margin-right: 30px;
+	text-align: center;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius:100px;
+	
+}
+
+#box-tecnico{
+	width: 50%;
+	margin-left: 250px;
+	height: 350px;
+	border:1px solid red;
+}
+
+
+
+#location{
+	border:1px solid red;	
+}
+
+#location h1{
+	width: 400px;
+	height: 50px;
+	float: right;
+	margin-right: 250px;
+	border:1px solid red;
+	
+}
+
+#location p{
+	margin-top: 50px;
+	margin-left: 50px;
+	font-size: 0.5em;
+}
+
+#vermelho{
+	border:1px solid red;
+}
+	
+}
+
+#endereco{
+	float: right;
+	display: inline;
+	margin-right: 10px;
+	border:1px solid red;
+
+}
+
+
+
+#rodape{
+	width: 100%;
+	height: 70px;
+	border:1px solid red;
+}
+
+#dev-by{
+	width: 100%;
+	height:15px;
+	font-size: 0.4em;
+	font-weight: bold;
+	text-align: center;
+	border:1px solid red;
+
+}
+ 
+ #menu{
+ 	width: 100%;
+ 	height:30px;
+ 	margin-top: 140px;
+ 	text-decoration: none;
+ 	position: fixed;
+ 	background: #d75413;
+ 	border:1px solid red;
+ }
+
+ #menu li{
+ 	display: inline;
+ 	margin-left: 220px;
+
+ }
+ #menu ul{
+
+ }
+
+/*BOX-SERVIÇOS*/
+
+#box-servicos{
+	width: 100%;
+	height: 700px;
+	margin-top: 180px;
+	border:1px solid red;
+}
+
+#box-servicos h1{
+	margin-top: 20px;
+	margin-left: 40px;	
+	margin-bottom: 0px;
+}
+h2{
+	text-align: center;
+	margin-top: 0px;	
+	margin-bottom: 0px;
+	padding: 10px 30px;
+	float: right;
+	background-color:#d75413;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+
+
+}
+
+#box-servicos a{
+	width: 25%;
+	height: 60px;
+	display: block;
+	margin-left: 5px;
+	margin-right: 5px;
+	border:1px solid red;
+}
+
+#box-servicos a:hover{
+	background-color: #d75413;
+}
+
+#box-servicos a:active{
+	background-color: #d75413;
+}
+
+
+
+#img-servicos{
+	width: 60%;
+	height: 290px;
+	margin-right: 60px;
+	display: inline;
+	float: right;
+	border:1px solid red;
+}
+
+#botao-menu-servicos{
+
+
+}
+
+#servico-text{
+	width: 60%;
+	height: 200px;
+	margin-right: 60px;
+	margin-top: 50px;
+	display: inline;
+	float: right;
+	border:1px solid red;
+}
+
+a{
+	text-decoration: none;
+	text-align: center;
+	padding:0 2em;
+	line-height: 3em;
+	margin-bottom: 25px;
+	background-color: white;
+	border-radius: 20px;
+
+}
+
+.fundo-botao a{
+	background-color: #d75413;
+}
+
+
+	
