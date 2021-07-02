@@ -18,13 +18,21 @@
 <body>
 	<div id="main">
 		<div id="header"></div>
-		<!-- Area do Menu-->	
-			<div id="menu">
-				<a href="index.html">HOME</a>
-				<a href="carro.html">SERVIÇOS</a>
-				<a href="motos.html">CONTATOS</a>
+		<div id="menu"> 
+			<div id="menu-btn" style="display: inline; margin:0px 50px;"><button class="dropbtn"><a href="#">HOME</a></button></div>
+			<div style="border:1px solid red;display: inline; margin:0px 50px;" class="dropdown">
+	        	<button class="dropbtn"><a href="#">SERVIÇOS</a></button>
+	  				<div class="dropdown-content">
+					    <a href="#">MOTOR</a>
+					    <a href="#">INJEÇÃO ELETRÔNICA</a>
+					    <a href="#">SUSPENSÃO</a>
+					    <a href="#">ELETRICA</a>
+				    </div>
+
 			</div>
-			<!-- Final da area de Menu-->
+			<div id="menu-btn" style="display: inline; margin:0px 50px;"><button class="dropbtn"><a href="#">CONTATO</a></button></div>
+		</div>
+			
 			<div id="orcamento-bar"><div></div></div>
 		<div id="box-servicos">
 			<div>
@@ -96,7 +104,7 @@
 				<iframe style="border:3px solid gray border-radius:10px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14818.866439935122!2d-48.1888675!3d-21.7912263!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf1ba60f911c2b77e!2sJhow%20car%20auto%20center%20e%20mec%C3%A2nica%20em%20geral!5e0!3m2!1spt-BR!2sbr!4v1625005419002!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>		
 			</div>
 		</div>
-		<div id="rodape">  Rodapé </div>
+		<div id="rodape"></div>
 		<div id="dev-by">Desenvolvido por - Nix Desenvolvimento Web 16 99337-9492</div>
 	</div>	
 </body>
